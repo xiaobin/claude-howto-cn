@@ -1052,7 +1052,75 @@ pip install pypdf pdfplumber
 
 **Important**: Claude reads additional files only when needed, using progressive disclosure to manage context efficiently. Reference files with relative links in your SKILL.md.
 
-### Example 5: Code Refactoring Skill
+### Example 5: CLAUDE.md Generator Skill
+
+A skill for creating and maintaining optimal CLAUDE.md files following best practices.
+
+**Directory Structure:**
+
+```
+claude-md/
+└── SKILL.md
+```
+
+**File:** `~/.claude/skills/claude-md/SKILL.md`
+
+```yaml
+---
+description: Create or update CLAUDE.md files following best practices for optimal AI agent onboarding
+---
+
+## Core Principles
+
+**LLMs are stateless**: CLAUDE.md is the only file automatically included in every conversation. It serves as the primary onboarding document for AI agents into your codebase.
+
+### The Golden Rules
+
+1. **Less is More**: Frontier LLMs can follow ~150-200 instructions. Keep your CLAUDE.md focused and concise.
+2. **Universal Applicability**: Only include information relevant to EVERY session.
+3. **Don't Use Claude as a Linter**: Use deterministic tools (prettier, eslint) instead.
+4. **Never Auto-Generate**: Craft it manually with careful consideration.
+
+## Essential Sections
+
+A well-structured CLAUDE.md should include:
+
+- **Project Name**: Brief one-line description
+- **Tech Stack**: Primary language, frameworks, database
+- **Project Structure**: Only for monorepos or complex structures
+- **Development Commands**: Install, test, build commands
+- **Critical Conventions**: Only non-obvious, high-impact conventions
+- **Known Issues / Gotchas**: Things that consistently trip up developers
+
+## Quality Constraints
+
+- Target under 300 lines (ideally under 100)
+- No style rules (use linters)
+- No code snippets (use file references)
+- No task-specific instructions
+```
+
+**Key Features:**
+- Three operation modes: `create`, `update`, `audit`
+- Follows WHAT/WHY/HOW content strategy
+- Progressive disclosure for larger projects via `agent_docs/` folder
+- Validation checklist for quality assurance
+- Anti-pattern detection and removal
+
+**Usage Examples:**
+
+```
+User: /claude-md create
+Claude: [Analyzes project, creates optimized CLAUDE.md]
+
+User: /claude-md audit
+Claude: [Reports on current CLAUDE.md quality without modifications]
+
+User: /claude-md update
+Claude: [Improves existing CLAUDE.md following best practices]
+```
+
+### Example 6: Code Refactoring Skill
 
 A systematic refactoring skill based on Martin Fowler's methodology.
 
