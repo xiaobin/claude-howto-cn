@@ -676,13 +676,13 @@ done
 **解决方案**：一次专注于一个里程碑。在继续之前完成所有练习。
 
 ### 挑战 2："不知道什么时候用什么功能"
-**解决方案**：参阅主 README 中的[使用场景矩阵](README.zh-CN.md#what-can-you-build-with-this)。
+**解决方案**：参阅主 README 中的[使用场景矩阵](README.zh-CN.md#能用它构建什么)。
 
 ### 挑战 3："配置不工作"
-**解决方案**：检查[故障排查](README.zh-CN.md#troubleshooting)部分并验证文件位置。
+**解决方案**：检查[故障排查](README.zh-CN.md#常见问题)部分并验证文件位置。
 
 ### 挑战 4："概念似乎重叠"
-**解决方案**：审查[功能对比](README.zh-CN.md#feature-comparison)表以理解差异。
+**解决方案**：查看 [README.zh-CN.md](README.zh-CN.md) 了解各功能差异。
 
 ### 挑战 5："很难记住所有内容"
 **解决方案**：创建你自己的速查表。使用检查点安全实验。
