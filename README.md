@@ -21,6 +21,8 @@ Go from typing `claude` to orchestrating agents, hooks, skills, and MCP servers 
 
 **[Get Started in 15 Minutes](#get-started-in-15-minutes)** | **[Find Your Level](#not-sure-where-to-start)** | **[Browse the Feature Catalog](CATALOG.md)**
 
+> 🇨🇳 阅读中文版：[中文版](README.zh-CN.md)
+
 ---
 
 ## Table of Contents
