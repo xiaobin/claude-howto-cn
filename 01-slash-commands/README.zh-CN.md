@@ -115,7 +115,7 @@
 - 新增 `color` 命令，用于自定义提示词栏
 - `model` 选择器现在显示人类可读标签（如"Sonnet 4.6"）而非原始模型 ID
 - `/resume` 支持 `/continue` 别名
-- MCP 提示词可通过 `/mcp__<server>__<prompt>` 命令使用（见 [MCP 提示词作为命令](#mcp-prompts-as-commands)）
+- MCP 提示词可通过 `/mcp__<server>__<prompt>` 命令使用（见 [MCP 提示词作为命令](#mcp-提示词作为命令)）
 
 ## 自定义命令（现为技能）
 

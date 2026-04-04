@@ -363,8 +363,8 @@ ls .claude/commands/
 使用 GitHub 风格锚点链接同一文档中的部分：
 
 ```markdown
-[功能目录](#-feature-catalog)
-[最佳实践](#best-practices)
+[功能目录](#目录)
+[最佳实践](#图表)
 ```
 
 ### 相关指南模式
