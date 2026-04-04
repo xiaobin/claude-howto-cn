@@ -1,0 +1,530 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775284906176,
+  "projectRoot": "/Users/xiaobin/Development/ai/awesome-claude-code/claude-howto-cn",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "docs",
+      "scripts"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "01-slash-commands": {
+      "path": "01-slash-commands",
+      "purpose": null,
+      "fileCount": 10,
+      "lastAccessed": 1775284906140,
+      "keyFiles": [
+        "README.md",
+        "commit.md",
+        "doc-refactor.md",
+        "generate-api-docs.md",
+        "optimize.md"
+      ]
+    },
+    "02-memory": {
+      "path": "02-memory",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1775284906148,
+      "keyFiles": [
+        "README.md",
+        "directory-api-CLAUDE.md",
+        "memory-ask-claude.png",
+        "memory-saved.png",
+        "personal-CLAUDE.md"
+      ]
+    },
+    "03-skills": {
+      "path": "03-skills",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1775284906149,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "04-subagents": {
+      "path": "04-subagents",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1775284906149,
+      "keyFiles": [
+        "README.md",
+        "clean-code-reviewer.md",
+        "code-reviewer.md",
+        "data-scientist.md",
+        "debugger.md"
+      ]
+    },
+    "05-mcp": {
+      "path": "05-mcp",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1775284906150,
+      "keyFiles": [
+        "README.md",
+        "database-mcp.json",
+        "filesystem-mcp.json",
+        "github-mcp.json",
+        "multi-mcp.json"
+      ]
+    },
+    "06-hooks": {
+      "path": "06-hooks",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1775284906151,
+      "keyFiles": [
+        "README.md",
+        "context-tracker-tiktoken.py",
+        "context-tracker.py",
+        "format-code.sh",
+        "log-bash.sh"
+      ]
+    },
+    "07-plugins": {
+      "path": "07-plugins",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775284906151,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "08-checkpoints": {
+      "path": "08-checkpoints",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1775284906151,
+      "keyFiles": [
+        "README.md",
+        "checkpoint-examples.md"
+      ]
+    },
+    "09-advanced-features": {
+      "path": "09-advanced-features",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1775284906152,
+      "keyFiles": [
+        "README.md",
+        "config-examples.json",
+        "planning-mode-examples.md",
+        "setup-auto-mode-permissions.py"
+      ]
+    },
+    "10-cli": {
+      "path": "10-cli",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775284906153,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1775284906154,
+      "keyFiles": []
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 2,
+      "lastAccessed": 1775284906155,
+      "keyFiles": [
+        "ROADMAP-20260401.md",
+        "TASKS-20260401.md"
+      ]
+    },
+    "prompts": {
+      "path": "prompts",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775284906157,
+      "keyFiles": [
+        "remotion-video.md"
+      ]
+    },
+    "resources": {
+      "path": "resources",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1775284906158,
+      "keyFiles": [
+        "DESIGN-SYSTEM.md",
+        "INDEX.txt",
+        "MANIFEST.txt",
+        "QUICK-START.md",
+        "README.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 8,
+      "lastAccessed": 1775284906159,
+      "keyFiles": [
+        "README.md",
+        "build_epub.py",
+        "check_cross_references.py",
+        "check_links.py",
+        "check_mermaid.py"
+      ]
+    },
+    "slides": {
+      "path": "slides",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1775284906159,
+      "keyFiles": [
+        "LuongNGUYEN-Coding-with-AI.pdf",
+        "The_Anthropic_Agent_SDK.pdf"
+      ]
+    },
+    "scripts/tests": {
+      "path": "scripts/tests",
+      "purpose": "Test files",
+      "fileCount": 3,
+      "lastAccessed": 1775284906166,
+      "keyFiles": [
+        "__init__.py",
+        "conftest.py",
+        "test_build_epub.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 12,
+      "lastAccessed": 1775287094624,
+      "type": "directory"
+    },
+    {
+      "path": "STYLE_GUIDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286058383,
+      "type": "file"
+    },
+    {
+      "path": "clean-code-rules.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286058408,
+      "type": "file"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286058442,
+      "type": "file"
+    },
+    {
+      "path": "resources.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286058495,
+      "type": "file"
+    },
+    {
+      "path": "claude_concepts_guide.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286058660,
+      "type": "file"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286058743,
+      "type": "file"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "accessCount": 2,
+      "lastAccessed": 1775286593398,
+      "type": "file"
+    },
+    {
+      "path": ".claude",
+      "accessCount": 1,
+      "lastAccessed": 1775285284491,
+      "type": "directory"
+    },
+    {
+      "path": "03-skills/blog-draft/templates/outline-template.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285400731,
+      "type": "file"
+    },
+    {
+      "path": "03-skills/blog-draft/SKILL.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285401094,
+      "type": "file"
+    },
+    {
+      "path": "03-skills/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285401136,
+      "type": "file"
+    },
+    {
+      "path": "03-skills/blog-draft/templates/draft-template.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285401158,
+      "type": "file"
+    },
+    {
+      "path": "03-skills/brand-voice/tone-examples.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285401196,
+      "type": "file"
+    },
+    {
+      "path": "03-skills/brand-voice/SKILL.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285401214,
+      "type": "file"
+    },
+    {
+      "path": "05-mcp/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402086,
+      "type": "file"
+    },
+    {
+      "path": "10-cli/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402124,
+      "type": "file"
+    },
+    {
+      "path": "08-checkpoints/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402307,
+      "type": "file"
+    },
+    {
+      "path": "09-advanced-features/planning-mode-examples.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402401,
+      "type": "file"
+    },
+    {
+      "path": "08-checkpoints/checkpoint-examples.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402477,
+      "type": "file"
+    },
+    {
+      "path": "09-advanced-features/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402577,
+      "type": "file"
+    },
+    {
+      "path": "06-hooks/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285402646,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/commands/deploy.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285404056,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/agents/alert-analyzer.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285404243,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285404301,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/commands/status.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405113,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/commands/incident.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405131,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/agents/deployment-specialist.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405171,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/commands/rollback.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405739,
+      "type": "file"
+    },
+    {
+      "path": "07-plugins/devops-automation/agents/incident-commander.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405785,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405814,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/commit.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405904,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/pr.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405955,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/generate-api-docs.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285405969,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/optimize.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285406069,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/doc-refactor.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285406093,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/setup-ci-cd.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285406617,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/unit-test-expand.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407051,
+      "type": "file"
+    },
+    {
+      "path": "01-slash-commands/push-all.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407109,
+      "type": "file"
+    },
+    {
+      "path": "02-memory/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407231,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407529,
+      "type": "file"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407560,
+      "type": "file"
+    },
+    {
+      "path": "QUICK_REFERENCE.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407573,
+      "type": "file"
+    },
+    {
+      "path": "SECURITY.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407586,
+      "type": "file"
+    },
+    {
+      "path": "CATALOG.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407663,
+      "type": "file"
+    },
+    {
+      "path": "LEARNING-ROADMAP.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407769,
+      "type": "file"
+    },
+    {
+      "path": "INDEX.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285407822,
+      "type": "file"
+    },
+    {
+      "path": "02-memory/directory-api-CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285409132,
+      "type": "file"
+    },
+    {
+      "path": "02-memory/personal-CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285409365,
+      "type": "file"
+    },
+    {
+      "path": "02-memory/project-CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1775285409380,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

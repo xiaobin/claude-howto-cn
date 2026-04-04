@@ -154,8 +154,8 @@ cp 02-memory/project-CLAUDE.md ./CLAUDE.md
 
 #### 下一步
 熟悉后，阅读：
-- [01-slash-commands/README.md](01-slash-commands/README.md)
-- [02-memory/README.md](02-memory/README.md)
+- [01-slash-commands/README.zh-CN.md](01-slash-commands/README.zh-CN.md)
+- [02-memory/README.zh-CN.md](02-memory/README.zh-CN.md)
 
 > **检查你的理解**：在 Claude Code 中运行 `/lesson-quiz slash-commands` 或 `/lesson-quiz memory`，测试你所学的内容。
 
@@ -198,8 +198,8 @@ cat error.log | claude -p "explain this error"
 - [ ] 理解何时使用检查点进行安全实验
 
 #### 下一步
-- 阅读：[08-checkpoints/README.md](08-checkpoints/README.md)
-- 阅读：[10-cli/README.md](10-cli/README.md)
+- 阅读：[08-checkpoints/README.zh-CN.md](08-checkpoints/README.zh-CN.md)
+- 阅读：[10-cli/README.zh-CN.md](10-cli/README.zh-CN.md)
 - **准备好进入二级！** 继续到[里程碑 2A](#里程碑-2a-自动化技能--钩子)
 
 > **检查你的理解**：运行 `/lesson-quiz checkpoints` 或 `/lesson-quiz cli`，验证你已准备好进入二级。
@@ -278,8 +278,8 @@ chmod +x ~/.claude/hooks/pre-tool-check.sh
 #### 下一步
 - 创建你自己的自定义技能
 - 为你的工作流设置其他钩子
-- 阅读：[03-skills/README.md](03-skills/README.md)
-- 阅读：[06-hooks/README.md](06-hooks/README.md)
+- 阅读：[03-skills/README.zh-CN.md](03-skills/README.zh-CN.md)
+- 阅读：[06-hooks/README.zh-CN.md](06-hooks/README.zh-CN.md)
 
 > **检查你的理解**：在移动到下一步之前，运行 `/lesson-quiz skills` 或 `/lesson-quiz hooks` 测试你的知识。
 
@@ -328,8 +328,8 @@ cp 04-subagents/*.md .claude/agents/
 #### 下一步
 - 设置其他 MCP 服务器（数据库、Slack 等）
 - 为你的领域创建自定义子代理
-- 阅读：[05-mcp/README.md](05-mcp/README.md)
-- 阅读：[04-subagents/README.md](04-subagents/README.md)
+- 阅读：[05-mcp/README.zh-CN.md](05-mcp/README.zh-CN.md)
+- 阅读：[04-subagents/README.zh-CN.md](04-subagents/README.zh-CN.md)
 - **准备好进入三级！** 继续到[里程碑 3A](#里程碑-3a-高级功能)
 
 > **检查你的理解**：运行 `/lesson-quiz mcp` 或 `/lesson-quiz subagents`，验证你已准备好进入三级。
@@ -428,7 +428,7 @@ export CLAUDE_AGENT_TEAMS=1
 - [ ] 使用 `/loop` 进行重复任务或计划监控
 
 #### 下一步
-- 阅读：[09-advanced-features/README.md](09-advanced-features/README.md)
+- 阅读：[09-advanced-features/README.zh-CN.md](09-advanced-features/README.zh-CN.md)
 
 > **检查你的理解**：运行 `/lesson-quiz advanced`，测试你对高级用户功能的掌握。
 
@@ -497,8 +497,8 @@ done
 - **数据处理**：转换和分析数据文件
 
 #### 下一步
-- 阅读：[07-plugins/README.md](07-plugins/README.md)
-- 阅读：[10-cli/README.md](10-cli/README.md)
+- 阅读：[07-plugins/README.zh-CN.md](07-plugins/README.zh-CN.md)
+- 阅读：[10-cli/README.zh-CN.md](10-cli/README.zh-CN.md)
 - 创建团队范围的 CLI 快捷方式和插件
 - 设置批处理脚本
 
@@ -532,7 +532,7 @@ done
 
 1. 复制一个斜杠命令：`cp 01-slash-commands/optimize.md .claude/commands/`
 2. 在 Claude Code 中试用：`/optimize`
-3. 阅读：[01-slash-commands/README.md](01-slash-commands/README.md)
+3. 阅读：[01-slash-commands/README.zh-CN.md](01-slash-commands/README.zh-CN.md)
 
 **成果**：你将拥有一个可工作的斜杠命令并理解基础知识
 

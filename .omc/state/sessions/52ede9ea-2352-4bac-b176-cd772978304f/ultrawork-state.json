@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "started_at": "2026-04-04T07:20:30.311Z",
+  "original_prompt": "/ultrawork 开始修复，修复完自行验证后上传。",
+  "session_id": "52ede9ea-2352-4bac-b176-cd772978304f",
+  "project_path": "/Users/xiaobin/Development/ai/awesome-claude-code/claude-howto-cn",
+  "reinforcement_count": 0,
+  "awaiting_confirmation": true,
+  "last_checked_at": "2026-04-04T07:20:30.312Z"
+}

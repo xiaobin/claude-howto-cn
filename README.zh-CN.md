@@ -12,28 +12,28 @@
 [![GitHub Stars](https://img.shields.io/github/stars/luongnv89/claude-howto?style=flat&color=gold)](https://github.com/luongnv89/claude-howto/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/luongnv89/claude-howto?style=flat)](https://github.com/luongnv89/claude-howto/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.0-brightgreen)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.0-brightgreen)](CHANGELOG.zh-CN.md)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-2.1+-purple)](https://code.claude.com)
 
 # 一周末精通 Claude Code
 
 从输入 `claude` 到编排代理、钩子、技能和 MCP 服务器——配有可视化教程、可直接复制粘贴的模板，以及循序渐进的学习路径。
 
-**[15 分钟快速上手](#get-started-in-15-minutes)** | **[找到你的起点](#not-sure-where-to-start)** | **[浏览功能目录](CATALOG.md)**
+**[15 分钟快速上手](#get-started-in-15-minutes)** | **[找到你的起点](#不确定从哪里开始)** | **[浏览功能目录](CATALOG.zh-CN.md)**
 
 ---
 
 ## 目录
 
-- [问题所在](#the-problem)
-- [Claude How To 如何解决](#how-claude-how-to-fixes-this)
-- [工作原理](#how-it-works)
-- [不确定从哪里开始？](#not-sure-where-to-start)
+- [问题所在](#问题所在)
+- [Claude How To 如何解决](#claude-how-to-如何解决)
+- [工作原理](#工作原理)
+- [不确定从哪里开始？](#不确定从哪里开始)
 - [15 分钟快速上手](#get-started-in-15-minutes)
-- [能用它构建什么？](#what-can-you-build-with-this)
-- [常见问题](#faq)
-- [贡献指南](#contributing)
-- [许可证](#license)
+- [能用它构建什么？](#能用它构建什么)
+- [常见问题](#常见问题)
+- [贡献指南](#贡献)
+- [许可证](#许可证)
 
 ---
 
@@ -804,7 +804,7 @@ uv run scripts/build_epub.py
 
 这会创建 `claude-howto-guide.epub`，包含所有内容和渲染的 Mermaid 图。
 
-见 [scripts/README.md](scripts/README.md) 了解更多选项。
+见 [scripts/README.zh-CN.md](scripts/README.zh-CN.md) 了解更多选项。
 
 </details>
 

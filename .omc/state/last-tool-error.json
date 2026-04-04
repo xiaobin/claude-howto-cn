@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/Users/xiaobin/Development/ai/awesome-claude-code/claude-howto-cn/resources/QUICK_START.zh-CN.md\",\"offset\":85,\"limit\":10}",
+  "error": "File does not exist. Note: your current working directory is /Users/xiaobin/Development/ai/awesome-claude-code/claude-howto-cn.",
+  "timestamp": "2026-04-04T07:21:22.002Z",
+  "retry_count": 1
+}
