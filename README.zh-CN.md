@@ -113,24 +113,24 @@
 
 | 水平 | 你可以…… | 从这里开始 | 时间 |
 |-------|-----------|------------|------|
-| **入门** | 启动 Claude Code 并对话 | [斜杠命令](01-slash-commands/) | 约 2.5 小时 |
-| **中级** | 使用 CLAUDE.md 和自定义命令 | [技能](03-skills/) | 约 3.5 小时 |
-| **高级** | 配置 MCP 服务器和钩子 | [高级功能](09-advanced-features/) | 约 5 小时 |
+| **入门** | 启动 Claude Code 并对话 | [斜杠命令](01-slash-commands/README.zh-CN.md) | 约 2.5 小时 |
+| **中级** | 使用 CLAUDE.md 和自定义命令 | [技能](03-skills/README.zh-CN.md) | 约 3.5 小时 |
+| **高级** | 配置 MCP 服务器和钩子 | [高级功能](09-advanced-features/README.zh-CN.md) | 约 5 小时 |
 
 **完整学习路径，包含全部 10 个模块：**
 
 | 顺序 | 模块 | 水平 | 时间 |
 |-------|--------|-------|------|
-| 1 | [斜杠命令](01-slash-commands/) | 入门 | 30 分钟 |
-| 2 | [记忆](02-memory/) | 入门+ | 45 分钟 |
-| 3 | [检查点](08-checkpoints/) | 中级 | 45 分钟 |
-| 4 | [CLI 基础](10-cli/) | 入门+ | 30 分钟 |
-| 5 | [技能](03-skills/) | 中级 | 1 小时 |
-| 6 | [钩子](06-hooks/) | 中级 | 1 小时 |
-| 7 | [MCP](05-mcp/) | 中级+ | 1 小时 |
-| 8 | [子代理](04-subagents/) | 中级+ | 1.5 小时 |
-| 9 | [高级功能](09-advanced-features/) | 高级 | 2-3 小时 |
-| 10 | [插件](07-plugins/) | 高级 | 2 小时 |
+| 1 | [斜杠命令](01-slash-commands/README.zh-CN.md) | 入门 | 30 分钟 |
+| 2 | [记忆](02-memory/README.zh-CN.md) | 入门+ | 45 分钟 |
+| 3 | [检查点](08-checkpoints/README.zh-CN.md) | 中级 | 45 分钟 |
+| 4 | [CLI 基础](10-cli/README.zh-CN.md) | 入门+ | 30 分钟 |
+| 5 | [技能](03-skills/README.zh-CN.md) | 中级 | 1 小时 |
+| 6 | [钩子](06-hooks/README.zh-CN.md) | 中级 | 1 小时 |
+| 7 | [MCP](05-mcp/README.zh-CN.md) | 中级+ | 1 小时 |
+| 8 | [子代理](04-subagents/README.zh-CN.md) | 中级+ | 1.5 小时 |
+| 9 | [高级功能](09-advanced-features/README.zh-CN.md) | 高级 | 2-3 小时 |
+| 10 | [插件](07-plugins/README.zh-CN.md) | 高级 | 2 小时 |
 
 **[完整学习路线图 ->](LEARNING-ROADMAP.zh-CN.md)**
 
@@ -232,16 +232,16 @@ MIT 许可。永久免费。克隆它、fork 它，让它为你所用。
 | 功能 | 描述 | 目录 |
 |---------|-------------|--------|
 | **功能目录** | 带安装命令的完整参考 | [CATALOG.zh-CN.md](CATALOG.zh-CN.md) |
-| **斜杠命令** | 用户调用的快捷方式 | [01-slash-commands/](01-slash-commands/) |
-| **记忆** | 持久化上下文 | [02-memory/](02-memory/) |
-| **技能** | 可复用能力 | [03-skills/](03-skills/) |
-| **子代理** | 专业 AI 助手 | [04-subagents/](04-subagents/) |
-| **MCP 协议** | 外部工具访问 | [05-mcp/](05-mcp/) |
-| **钩子** | 事件驱动自动化 | [06-hooks/](06-hooks/) |
-| **插件** | 打包的功能集 | [07-plugins/](07-plugins/) |
-| **检查点** | 会话快照和回退 | [08-checkpoints/](08-checkpoints/) |
-| **高级功能** | 规划、思考、后台任务 | [09-advanced-features/](09-advanced-features/) |
-| **CLI 参考** | 命令、标志和选项 | [10-cli/](10-cli/) |
+| **斜杠命令** | 用户调用的快捷方式 | [01-slash-commands/](01-slash-commands/README.zh-CN.md) |
+| **记忆** | 持久化上下文 | [02-memory/](02-memory/README.zh-CN.md) |
+| **技能** | 可复用能力 | [03-skills/](03-skills/README.zh-CN.md) |
+| **子代理** | 专业 AI 助手 | [04-subagents/](04-subagents/README.zh-CN.md) |
+| **MCP 协议** | 外部工具访问 | [05-mcp/](05-mcp/README.zh-CN.md) |
+| **钩子** | 事件驱动自动化 | [06-hooks/](06-hooks/README.zh-CN.md) |
+| **插件** | 打包的功能集 | [07-plugins/](07-plugins/README.zh-CN.md) |
+| **检查点** | 会话快照和回退 | [08-checkpoints/](08-checkpoints/README.zh-CN.md) |
+| **高级功能** | 规划、思考、后台任务 | [09-advanced-features/](09-advanced-features/README.zh-CN.md) |
+| **CLI 参考** | 命令、标志和选项 | [10-cli/](10-cli/README.zh-CN.md) |
 | **博客文章** | 真实使用案例 | [Blog Posts](https://medium.com/@luongnv89) |
 
 </details>
@@ -308,7 +308,7 @@ chmod +x ~/.claude/hooks/*.sh
 <details>
 <summary>01. 斜杠命令</summary>
 
-**位置**：[01-slash-commands/](01-slash-commands/)
+**位置**：[01-slash-commands/](01-slash-commands/README.zh-CN.md)
 
 **内容**：存储为 Markdown 文件的用户调用快捷方式
 
@@ -336,7 +336,7 @@ cp 01-slash-commands/*.md /path/to/project/.claude/commands/
 <details>
 <summary>02. 记忆</summary>
 
-**位置**：[02-memory/](02-memory/)
+**位置**：[02-memory/](02-memory/README.zh-CN.md)
 
 **内容**：跨会话持久化上下文
 
@@ -364,7 +364,7 @@ cp 02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
 <details>
 <summary>03. 技能</summary>
 
-**位置**：[03-skills/](03-skills/)
+**位置**：[03-skills/](03-skills/README.zh-CN.md)
 
 **内容**：带指令和脚本的可复用、自动调用能力
 
@@ -389,7 +389,7 @@ cp -r 03-skills/code-review /path/to/project/.claude/skills/
 <details>
 <summary>04. 子代理</summary>
 
-**位置**：[04-subagents/](04-subagents/)
+**位置**：[04-subagents/](04-subagents/README.zh-CN.md)
 
 **内容**：具有隔离上下文和自定义提示词的专业 AI 助手
 
@@ -412,7 +412,7 @@ cp 04-subagents/*.md /path/to/project/.claude/agents/
 <details>
 <summary>05. MCP 协议</summary>
 
-**位置**：[05-mcp/](05-mcp/)
+**位置**：[05-mcp/](05-mcp/README.zh-CN.md)
 
 **内容**：用于访问外部工具和 API 的 Model Context Protocol
 
@@ -441,7 +441,7 @@ claude mcp add github -- npx -y @modelcontextprotocol/server-github
 <details>
 <summary>06. 钩子</summary>
 
-**位置**：[06-hooks/](06-hooks/)
+**位置**：[06-hooks/](06-hooks/README.zh-CN.md)
 
 **内容**：事件驱动的 shell 命令，自动响应 Claude Code 事件执行
 
@@ -489,7 +489,7 @@ chmod +x ~/.claude/hooks/*.sh
 <details>
 <summary>07. 插件</summary>
 
-**位置**：[07-plugins/](07-plugins/)
+**位置**：[07-plugins/](07-plugins/README.zh-CN.md)
 
 **内容**：命令、代理、MCP 和钩子的打包集合
 
@@ -512,7 +512,7 @@ chmod +x ~/.claude/hooks/*.sh
 <details>
 <summary>08. 检查点和回退</summary>
 
-**位置**：[08-checkpoints/](08-checkpoints/)
+**位置**：[08-checkpoints/](08-checkpoints/README.zh-CN.md)
 
 **内容**：保存对话状态并回退到之前的点，以探索不同方法
 
@@ -547,7 +547,7 @@ chmod +x ~/.claude/hooks/*.sh
 <details>
 <summary>09. 高级功能</summary>
 
-**位置**：[09-advanced-features/](09-advanced-features/)
+**位置**：[09-advanced-features/](09-advanced-features/README.zh-CN.md)
 
 **内容**：用于复杂workflow和自动化的先进能力
 
@@ -567,7 +567,7 @@ chmod +x ~/.claude/hooks/*.sh
 <details>
 <summary>10. CLI 参考</summary>
 
-**位置**：[10-cli/](10-cli/)
+**位置**：[10-cli/](10-cli/README.zh-CN.md)
 
 **内容**：Claude Code 完整命令行接口参考
 

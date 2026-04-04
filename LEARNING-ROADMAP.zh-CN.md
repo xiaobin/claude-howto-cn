@@ -97,17 +97,17 @@ graph TD
 
 | 步骤 | 功能 | 复杂度 | 时间 | 级别 | 依赖 | 为什么学这个 | 关键收益 |
 |------|---------|-----------|------|-------|--------------|----------------|--------------|
-| **1** | [斜杠命令](01-slash-commands/) | ⭐ 入门 | 30 分钟 | 一级 | 无 | 快速获得生产力（55+ 内置 + 5 个捆绑技能） | 即时自动化、团队标准 |
-| **2** | [记忆](02-memory/) | ⭐⭐ 入门+ | 45 分钟 | 一级 | 无 | 所有功能的必要基础 | 持久上下文、偏好设置 |
-| **3** | [检查点](08-checkpoints/) | ⭐⭐ 中级 | 45 分钟 | 一级 | 会话管理 | 安全探索 | 实验、恢复 |
-| **4** | [CLI 基础](10-cli/) | ⭐⭐ 入门+ | 30 分钟 | 一级 | 无 | 核心 CLI 使用 | 交互和打印模式 |
-| **5** | [技能](03-skills/) | ⭐⭐ 中级 | 1 小时 | 二级 | 斜杠命令 | 自动专业知识 | 可复用能力、一致性 |
-| **6** | [钩子](06-hooks/) | ⭐⭐ 中级 | 1 小时 | 二级 | 工具、命令 | 工作流自动化（25 个事件，4 种类型） | 验证、质量门禁 |
-| **7** | [MCP](05-mcp/) | ⭐⭐⭐ 中级+ | 1 小时 | 二级 | 配置 | 实时数据访问 | 实时集成、API |
-| **8** | [子代理](04-subagents/) | ⭐⭐⭐ 中级+ | 1.5 小时 | 二级 | 记忆、命令 | 复杂任务处理（6 个内置，包括 Bash） | 分配、专业知识 |
-| **9** | [高级功能](09-advanced-features/) | ⭐⭐⭐⭐⭐ 高级 | 2-3 小时 | 三级 | 所有之前 | 高级用户工具 | 规划、Auto Mode、频道、语音听写、权限 |
-| **10** | [插件](07-plugins/) | ⭐⭐⭐⭐ 高级 | 2 小时 | 三级 | 所有之前 | 完整解决方案 | 团队入职、分发 |
-| **11** | [CLI 精通](10-cli/) | ⭐⭐⭐ 高级 | 1 小时 | 三级 | 推荐：所有 | 掌握命令行使用 | 脚本、CI/CD、自动化 |
+| **1** | [斜杠命令](01-slash-commands/README.zh-CN.md) | ⭐ 入门 | 30 分钟 | 一级 | 无 | 快速获得生产力（55+ 内置 + 5 个捆绑技能） | 即时自动化、团队标准 |
+| **2** | [记忆](02-memory/README.zh-CN.md) | ⭐⭐ 入门+ | 45 分钟 | 一级 | 无 | 所有功能的必要基础 | 持久上下文、偏好设置 |
+| **3** | [检查点](08-checkpoints/README.zh-CN.md) | ⭐⭐ 中级 | 45 分钟 | 一级 | 会话管理 | 安全探索 | 实验、恢复 |
+| **4** | [CLI 基础](10-cli/README.zh-CN.md) | ⭐⭐ 入门+ | 30 分钟 | 一级 | 无 | 核心 CLI 使用 | 交互和打印模式 |
+| **5** | [技能](03-skills/README.zh-CN.md) | ⭐⭐ 中级 | 1 小时 | 二级 | 斜杠命令 | 自动专业知识 | 可复用能力、一致性 |
+| **6** | [钩子](06-hooks/README.zh-CN.md) | ⭐⭐ 中级 | 1 小时 | 二级 | 工具、命令 | 工作流自动化（25 个事件，4 种类型） | 验证、质量门禁 |
+| **7** | [MCP](05-mcp/README.zh-CN.md) | ⭐⭐⭐ 中级+ | 1 小时 | 二级 | 配置 | 实时数据访问 | 实时集成、API |
+| **8** | [子代理](04-subagents/README.zh-CN.md) | ⭐⭐⭐ 中级+ | 1.5 小时 | 二级 | 记忆、命令 | 复杂任务处理（6 个内置，包括 Bash） | 分配、专业知识 |
+| **9** | [高级功能](09-advanced-features/README.zh-CN.md) | ⭐⭐⭐⭐⭐ 高级 | 2-3 小时 | 三级 | 所有之前 | 高级用户工具 | 规划、Auto Mode、频道、语音听写、权限 |
+| **10** | [插件](07-plugins/README.md) | ⭐⭐⭐⭐ 高级 | 2 小时 | 三级 | 所有之前 | 完整解决方案 | 团队入职、分发 |
+| **11** | [CLI 精通](10-cli/README.zh-CN.md) | ⭐⭐⭐ 高级 | 1 小时 | 三级 | 推荐：所有 | 掌握命令行使用 | 脚本、CI/CD、自动化 |
 
 **总学习时间**：约 11-13 小时（或跳到你的级别以节省时间）
 
@@ -217,10 +217,10 @@ cat error.log | claude -p "explain this error"
 
 在开始二级之前，确保你熟悉以下一级概念：
 
-- [ ] 可以创建和使用斜杠命令（[01-slash-commands/](01-slash-commands/)）
-- [ ] 已通过 CLAUDE.md 设置项目记忆（[02-memory/](02-memory/)）
-- [ ] 知道如何创建和恢复检查点（[08-checkpoints/](08-checkpoints/)）
-- [ ] 可以从命令行使用 `claude` 和 `claude -p`（[10-cli/](10-cli/)）
+- [ ] 可以创建和使用斜杠命令（[01-slash-commands/](01-slash-commands/README.zh-CN.md)）
+- [ ] 已通过 CLAUDE.md 设置项目记忆（[02-memory/](02-memory/README.zh-CN.md)）
+- [ ] 知道如何创建和恢复检查点（[08-checkpoints/](08-checkpoints/README.zh-CN.md)）
+- [ ] 可以从命令行使用 `claude` 和 `claude -p`（[10-cli/](10-cli/README.zh-CN.md)）
 
 > **有差距？** 在继续之前复习上面链接的教程。
 
@@ -347,10 +347,10 @@ cp 04-subagents/*.md .claude/agents/
 
 在开始三级之前，确保你熟悉以下二级概念：
 
-- [ ] 可以创建和使用带自动调用的技能（[03-skills/](03-skills/)）
-- [ ] 已设置事件驱动自动化的钩子（[06-hooks/](06-hooks/)）
-- [ ] 可配置用于外部数据的 MCP 服务器（[05-mcp/](05-mcp/)）
-- [ ] 知道如何使用子代理进行任务分配（[04-subagents/](04-subagents/)）
+- [ ] 可以创建和使用带自动调用的技能（[03-skills/](03-skills/README.zh-CN.md)）
+- [ ] 已设置事件驱动自动化的钩子（[06-hooks/](06-hooks/README.zh-CN.md)）
+- [ ] 可配置用于外部数据的 MCP 服务器（[05-mcp/](05-mcp/README.zh-CN.md)）
+- [ ] 知道如何使用子代理进行任务分配（[04-subagents/](04-subagents/README.zh-CN.md)）
 
 > **有差距？** 在继续之前复习上面链接的教程。
 
@@ -628,40 +628,40 @@ done
 使用这些清单按级别跟踪你的进度。在任何时候运行 `/self-assessment` 获取更新的技能档案，或在每个教程后运行 `/lesson-quiz [lesson]` 验证你的理解。
 
 ### 一级：入门
-- [ ] 完成了 [01-slash-commands](01-slash-commands/)
-- [ ] 完成了 [02-memory](02-memory/)
+- [ ] 完成了 [01-slash-commands](01-slash-commands/README.zh-CN.md)
+- [ ] 完成了 [02-memory](02-memory/README.zh-CN.md)
 - [ ] 创建了第一个自定义斜杠命令
 - [ ] 设置了项目记忆
 - [ ] **达成里程碑 1A**
-- [ ] 完成了 [08-checkpoints](08-checkpoints/)
-- [ ] 完成了 [10-cli](10-cli/) 基础
+- [ ] 完成了 [08-checkpoints](08-checkpoints/README.zh-CN.md)
+- [ ] 完成了 [10-cli](10-cli/README.zh-CN.md) 基础
 - [ ] 创建并回退到一个检查点
 - [ ] 使用了交互和打印模式
 - [ ] **达成里程碑 1B**
 
 ### 二级：中级
-- [ ] 完成了 [03-skills](03-skills/)
-- [ ] 完成了 [06-hooks](06-hooks/)
+- [ ] 完成了 [03-skills](03-skills/README.zh-CN.md)
+- [ ] 完成了 [06-hooks](06-hooks/README.zh-CN.md)
 - [ ] 安装了第一个技能
 - [ ] 设置了 PreToolUse 钩子
 - [ ] **达成里程碑 2A**
-- [ ] 完成了 [05-mcp](05-mcp/)
-- [ ] 完成了 [04-subagents](04-subagents/)
+- [ ] 完成了 [05-mcp](05-mcp/README.zh-CN.md)
+- [ ] 完成了 [04-subagents](04-subagents/README.zh-CN.md)
 - [ ] 连接了 GitHub MCP
 - [ ] 创建了自定义子代理
 - [ ] 在工作流中组合了集成
 - [ ] **达成里程碑 2B**
 
 ### 三级：高级
-- [ ] 完成了 [09-advanced-features](09-advanced-features/)
+- [ ] 完成了 [09-advanced-features](09-advanced-features/README.zh-CN.md)
 - [ ] 成功使用了规划模式
 - [ ] 配置了权限模式（包括 auto 的 6 种模式）
 - [ ] 使用了带安全分类器的 auto 模式
 - [ ] 使用了扩展思考切换
 - [ ] 探索了频道和语音听写
 - [ ] **达成里程碑 3A**
-- [ ] 完成了 [07-plugins](07-plugins/)
-- [ ] 完成了 [10-cli](10-cli/) 高级使用
+- [ ] 完成了 [07-plugins](07-plugins/README.md)
+- [ ] 完成了 [10-cli](10-cli/README.zh-CN.md) 高级使用
 - [ ] 设置了打印模式（`claude -p`）CI/CD
 - [ ] 创建了用于自动化的 JSON 输出
 - [ ] 将 Claude 集成到 CI/CD pipeline

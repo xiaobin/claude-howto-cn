@@ -15,13 +15,13 @@
 
 | 功能 | 内置 | 示例 | 总计 | 参考 |
 |---------|----------|----------|-------|-----------|
-| **斜杠命令** | 55+ | 8 | 63+ | [01-slash-commands/](01-slash-commands/) |
-| **子代理** | 6 | 10 | 16 | [04-subagents/](04-subagents/) |
-| **技能** | 5 个捆绑 | 4 | 9 | [03-skills/](03-skills/) |
-| **插件** | - | 3 | 3 | [07-plugins/](07-plugins/) |
-| **MCP 服务器** | 1 | 8 | 9 | [05-mcp/](05-mcp/) |
-| **钩子** | 25 个事件 | 7 | 7 | [06-hooks/](06-hooks/) |
-| **记忆** | 7 种类型 | 3 | 3 | [02-memory/](02-memory/) |
+| **斜杠命令** | 55+ | 8 | 63+ | [01-slash-commands/README.zh-CN.md](01-slash-commands/README.zh-CN.md) |
+| **子代理** | 6 | 10 | 16 | [04-subagents/README.zh-CN.md](04-subagents/README.zh-CN.md) |
+| **技能** | 5 个捆绑 | 4 | 9 | [03-skills/README.zh-CN.md](03-skills/README.zh-CN.md) |
+| **插件** | - | 3 | 3 | [07-plugins/README.md](07-plugins/README.md) |
+| **MCP 服务器** | 1 | 8 | 9 | [05-mcp/README.zh-CN.md](05-mcp/README.zh-CN.md) |
+| **钩子** | 25 个事件 | 7 | 7 | [06-hooks/README.zh-CN.md](06-hooks/README.zh-CN.md) |
+| **记忆** | 7 种类型 | 3 | 3 | [02-memory/README.zh-CN.md](02-memory/README.zh-CN.md) |
 | **总计** | **99** | **43** | **117** | |
 
 ---
@@ -102,7 +102,7 @@
 
 > **范围**：`User` = 个人工作流（`~/.claude/commands/`），`Project` = 团队共享（`.claude/commands/`）
 
-**参考**：[01-slash-commands/](01-slash-commands/) | [官方文档](https://code.claude.com/docs/en/interactive-mode)
+**参考**：[01-slash-commands/README.zh-CN.md](01-slash-commands/README.zh-CN.md) | [官方文档](https://code.claude.com/docs/en/interactive-mode)
 
 **快速安装（所有自定义命令）**：
 ```bash
@@ -174,7 +174,7 @@ Claude Code 支持 6 种权限模式，控制工具使用的授权方式。
 
 > **范围**：`User` = 个人（`~/.claude/agents/`），`Project` = 团队共享（`.claude/agents/`）
 
-**参考**：[04-subagents/](04-subagents/) | [官方文档](https://code.claude.com/docs/en/sub-agents)
+**参考**：[04-subagents/README.zh-CN.md](04-subagents/README.zh-CN.md) | [官方文档](https://code.claude.com/docs/en/sub-agents)
 
 **快速安装（所有自定义代理）**：
 ```bash
@@ -219,7 +219,7 @@ cp 04-subagents/*.md .claude/agents/
 | `effort` | string | 推理努力级别（`low`、`medium`、`high`） |
 | `shell` | string | 用于脚本的 shell（`bash`、`zsh`、`sh`） |
 
-**参考**：[03-skills/](03-skills/) | [官方文档](https://code.claude.com/docs/en/skills)
+**参考**：[03-skills/README.zh-CN.md](03-skills/README.zh-CN.md) | [官方文档](https://code.claude.com/docs/en/skills)
 
 **快速安装（所有技能）**：
 ```bash
@@ -265,7 +265,7 @@ cp -r 03-skills/* ~/.claude/skills/
 └── scripts/          # 实用脚本
 ```
 
-**参考**：[07-plugins/](07-plugins/) | [官方文档](https://code.claude.com/docs/en/plugins)
+**参考**：[07-plugins/README.md](07-plugins/README.md) | [官方文档](https://code.claude.com/docs/en/plugins)
 
 **插件管理命令**：
 ```bash
@@ -313,7 +313,7 @@ cp -r 03-skills/* ~/.claude/skills/
 }
 ```
 
-**参考**：[05-mcp/](05-mcp/) | [MCP 协议文档](https://modelcontextprotocol.io)
+**参考**：[05-mcp/README.zh-CN.md](05-mcp/README.zh-CN.md) | [MCP 协议文档](https://modelcontextprotocol.io)
 
 **快速安装（GitHub MCP）**：
 ```bash
@@ -391,7 +391,7 @@ export GITHUB_TOKEN="your_token" && claude mcp add github -- npx -y @modelcontex
 }
 ```
 
-**参考**：[06-hooks/](06-hooks/) | [官方文档](https://code.claude.com/docs/en/hooks)
+**参考**：[06-hooks/README.zh-CN.md](06-hooks/README.zh-CN.md) | [官方文档](https://code.claude.com/docs/en/hooks)
 
 **快速安装（所有钩子）**：
 ```bash
@@ -417,7 +417,7 @@ mkdir -p ~/.claude/hooks && cp 06-hooks/*.sh ~/.claude/hooks/ && chmod +x ~/.cla
 
 > **范围**：`Organization` = 由管理员管理，`Project` = 通过 git 与团队共享，`User` = 个人偏好，`Local` = 不提交，`Session` = 自动管理
 
-**参考**：[02-memory/](02-memory/) | [官方文档](https://code.claude.com/docs/en/memory)
+**参考**：[02-memory/README.zh-CN.md](02-memory/README.zh-CN.md) | [官方文档](https://code.claude.com/docs/en/memory)
 
 **快速安装**：
 ```bash

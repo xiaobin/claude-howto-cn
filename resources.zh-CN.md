@@ -231,15 +231,15 @@ graph TD
 
 | 功能 | 描述 | 了解更多 |
 |---------|-------------|------------|
-| **Auto Memory** | Claude 自动跨会话学习和记忆你的偏好 | [记忆指南](02-memory/) |
-| **远程控制** | 从外部工具和脚本编程控制 Claude Code 会话 | [高级功能](09-advanced-features/) |
-| **Web 会话** | 通过基于浏览器的界面访问 Claude Code 进行远程开发 | [CLI 参考](10-cli/) |
+| **Auto Memory** | Claude 自动跨会话学习和记忆你的偏好 | [记忆指南](02-memory/README.zh-CN.md) |
+| **远程控制** | 从外部工具和脚本编程控制 Claude Code 会话 | [高级功能](09-advanced-features/README.zh-CN.md) |
+| **Web 会话** | 通过基于浏览器的界面访问 Claude Code 进行远程开发 | [CLI 参考](10-cli/README.zh-CN.md) |
 | **桌面应用** | 带增强 UI 的 Claude Code 原生桌面应用程序 | [Claude Code 文档](https://code.claude.com/docs/en/desktop) |
-| **扩展思考** | 通过 `Alt+T`/`Option+T` 或 `MAX_THINKING_TOKENS` 环境变量进行深度推理切换 | [高级功能](09-advanced-features/) |
-| **权限模式** | 细粒度控制：default、acceptEdits、plan、auto、dontAsk、bypassPermissions | [高级功能](09-advanced-features/) |
-| **7 层记忆** | 托管策略、项目、项目规则、用户、用户规则、本地、Auto Memory | [记忆指南](02-memory/) |
-| **钩子事件** | 25 个事件：PreToolUse、PostToolUse、PostToolUseFailure、Stop、StopFailure、SubagentStart、SubagentStop、Notification、Elicitation 等 | [钩子指南](06-hooks/) |
-| **代理团队** | 协调多个代理共同处理复杂任务 | [子代理指南](04-subagents/) |
-| **计划任务** | 使用 `/loop` 和 cron 工具设置重复任务 | [高级功能](09-advanced-features/) |
-| **Chrome 集成** | 使用无头 Chromium 进行浏览器自动化 | [高级功能](09-advanced-features/) |
-| **键盘自定义** | 自定义键绑定，包括和弦序列 | [高级功能](09-advanced-features/) |
+| **扩展思考** | 通过 `Alt+T`/`Option+T` 或 `MAX_THINKING_TOKENS` 环境变量进行深度推理切换 | [高级功能](09-advanced-features/README.zh-CN.md) |
+| **权限模式** | 细粒度控制：default、acceptEdits、plan、auto、dontAsk、bypassPermissions | [高级功能](09-advanced-features/README.zh-CN.md) |
+| **7 层记忆** | 托管策略、项目、项目规则、用户、用户规则、本地、Auto Memory | [记忆指南](02-memory/README.zh-CN.md) |
+| **钩子事件** | 25 个事件：PreToolUse、PostToolUse、PostToolUseFailure、Stop、StopFailure、SubagentStart、SubagentStop、Notification、Elicitation 等 | [钩子指南](06-hooks/README.zh-CN.md) |
+| **代理团队** | 协调多个代理共同处理复杂任务 | [子代理指南](04-subagents/README.zh-CN.md) |
+| **计划任务** | 使用 `/loop` 和 cron 工具设置重复任务 | [高级功能](09-advanced-features/README.zh-CN.md) |
+| **Chrome 集成** | 使用无头 Chromium 进行浏览器自动化 | [高级功能](09-advanced-features/README.zh-CN.md) |
+| **键盘自定义** | 自定义键绑定，包括和弦序列 | [高级功能](09-advanced-features/README.zh-CN.md) |

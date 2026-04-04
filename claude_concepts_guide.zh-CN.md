@@ -2106,7 +2106,7 @@ Claude Code 支持跨四种钩子类型的 **25 个钩子事件**：
 - 使用钩子运行长时间任务
 - 硬编码凭据
 
-**参见**：[06-hooks/](06-hooks/) 详细示例
+**参见**：[06-hooks/](06-hooks/README.zh-CN.md) 详细示例
 
 ---
 
@@ -2160,7 +2160,7 @@ Esc + Esc
 }
 ```
 
-**参见**：[08-checkpoints/](08-checkpoints/) 详细示例
+**参见**：[08-checkpoints/](08-checkpoints/README.zh-CN.md) 详细示例
 
 ---
 
@@ -2320,7 +2320,7 @@ claude -r "Feature"    # 按名称/ID 恢复会话
 }
 ```
 
-**参见**：[09-advanced-features/](09-advanced-features/) 综合指南
+**参见**：[09-advanced-features/](09-advanced-features/README.zh-CN.md) 综合指南
 
 ---
 
