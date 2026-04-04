@@ -343,7 +343,7 @@ ls .claude/commands/
 从课程文件夹返回根目录或同级：
 
 ```markdown
-[返回主指南](../README.zh-CN.md)
+[返回主指南](README.zh-CN.md)
 [相关：技能](../03-skills/)
 ```
 

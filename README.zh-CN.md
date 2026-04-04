@@ -804,7 +804,7 @@ uv run scripts/build_epub.py
 
 这会创建 `claude-howto-guide.epub`，包含所有内容和渲染的 Mermaid 图。
 
-见 [scripts/README.zh-CN.md](scripts/README.zh-CN.md) 了解更多选项。
+见[脚本说明](scripts/README.zh-CN.md)了解更多选项。
 
 </details>
 

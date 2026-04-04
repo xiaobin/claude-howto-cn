@@ -232,6 +232,12 @@
       "type": "directory"
     },
     {
+      "path": "README.md",
+      "accessCount": 3,
+      "lastAccessed": 1775290794273,
+      "type": "file"
+    },
+    {
       "path": "STYLE_GUIDE.md",
       "accessCount": 2,
       "lastAccessed": 1775286058383,
@@ -271,6 +277,12 @@
       "path": "CODE_OF_CONDUCT.md",
       "accessCount": 2,
       "lastAccessed": 1775286593398,
+      "type": "file"
+    },
+    {
+      "path": "LEARNING-ROADMAP.md",
+      "accessCount": 2,
+      "lastAccessed": 1775291019306,
       "type": "file"
     },
     {
@@ -466,12 +478,6 @@
       "type": "file"
     },
     {
-      "path": "README.md",
-      "accessCount": 1,
-      "lastAccessed": 1775285407529,
-      "type": "file"
-    },
-    {
       "path": "CHANGELOG.md",
       "accessCount": 1,
       "lastAccessed": 1775285407560,
@@ -493,12 +499,6 @@
       "path": "CATALOG.md",
       "accessCount": 1,
       "lastAccessed": 1775285407663,
-      "type": "file"
-    },
-    {
-      "path": "LEARNING-ROADMAP.md",
-      "accessCount": 1,
-      "lastAccessed": 1775285407769,
       "type": "file"
     },
     {
