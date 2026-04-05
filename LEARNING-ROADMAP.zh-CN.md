@@ -28,9 +28,9 @@
 
 | 勾选数 | 水平 | 从这里开始 | 完成时间 |
 |--------|-------|----------|------------------|
-| 0-2 | **一级：入门——入门** | [里程碑 1A](#user-content-里程碑-1a-第一个命令和记忆) | 约 3 小时 |
-| 3-5 | **二级：中级——构建工作流** | [里程碑 2A](#user-content-里程碑-2a-自动化-技能-+-钩子) | 约 5 小时 |
-| 6-8 | **三级：高级——高级用户和团队负责人** | [里程碑 3A](#user-content-里程碑-3a-高级功能) | 约 5 小时 |
+| 0-2 | **一级：入门——入门** | [里程碑 1A](#L124) | 约 3 小时 |
+| 3-5 | **二级：中级——构建工作流** | [里程碑 2A](#L232) | 约 5 小时 |
+| 6-8 | **三级：高级——高级用户和团队负责人** | [里程碑 3A](#L364) | 约 5 小时 |
 
 > **提示**：如果不确定，从低一级别开始。快速复习熟悉的材料比错过基础知识要好。
 
@@ -120,7 +120,6 @@ graph TD
 **重点**：即时生产力、理解基础知识
 **成果**：舒适的日常用户，为二级做好准备
 
-<a id="user-content-里程碑-1a-第一个命令和记忆"></a>
 ### 里程碑 1A：第一个命令和记忆
 
 **主题**：斜杠命令 + 记忆
@@ -162,7 +161,6 @@ cp 02-memory/project-CLAUDE.md ./CLAUDE.md
 
 ---
 
-<a id="user-content-里程碑-1b-安全探索"></a>
 ### 里程碑 1B：安全探索
 
 **主题**：检查点 + CLI 基础
@@ -202,7 +200,7 @@ cat error.log | claude -p "explain this error"
 #### 下一步
 - 阅读：[检查点](08-checkpoints/README.zh-CN.md)
 - 阅读：[命令行](10-cli/README.zh-CN.md)
-- **准备好进入二级！** 继续到[里程碑 2A](#user-content-里程碑-2a-自动化-技能-+-钩子)
+- **准备好进入二级！** 继续到[里程碑 2A](#L232)
 
 > **检查你的理解**：运行 `/lesson-quiz checkpoints` 或 `/lesson-quiz cli`，验证你已准备好进入二级。
 
@@ -228,7 +226,6 @@ cat error.log | claude -p "explain this error"
 
 ---
 
-<a id="user-content-里程碑-2a-自动化-技能-+-钩子"></a>
 ### 里程碑 2A：自动化（技能 + 钩子）
 
 **主题**：技能 + 钩子
@@ -288,7 +285,6 @@ chmod +x ~/.claude/hooks/pre-tool-check.sh
 
 ---
 
-<a id="user-content-里程碑-2b-集成-mcp-+-子代理"></a>
 ### 里程碑 2B：集成（MCP + 子代理）
 
 **主题**：MCP + 子代理
@@ -334,7 +330,7 @@ cp 04-subagents/*.md .claude/agents/
 - 为你的领域创建自定义子代理
 - 阅读：[MCP](05-mcp/README.zh-CN.md)
 - 阅读：[子代理](04-subagents/README.zh-CN.md)
-- **准备好进入三级！** 继续到[里程碑 3A](#user-content-里程碑-3a-高级功能)
+- **准备好进入三级！** 继续到[里程碑 3A](#L364)
 
 > **检查你的理解**：运行 `/lesson-quiz mcp` 或 `/lesson-quiz subagents`，验证你已准备好进入三级。
 
@@ -360,7 +356,6 @@ cp 04-subagents/*.md .claude/agents/
 
 ---
 
-<a id="user-content-里程碑-3a-高级功能"></a>
 ### 里程碑 3A：高级功能
 
 **主题**：高级功能（规划、权限、扩展思考、Auto Mode、频道、语音听写、远程/桌面/Web）
@@ -439,7 +434,6 @@ export CLAUDE_AGENT_TEAMS=1
 
 ---
 
-<a id="user-content-里程碑-3b-团队和分发-插件-+-cli-精通"></a>
 ### 里程碑 3B：团队和分发（插件 + CLI 精通）
 
 **主题**：插件 + CLI 精通 + CI/CD
