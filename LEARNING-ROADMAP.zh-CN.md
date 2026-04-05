@@ -106,7 +106,7 @@ graph TD
 | **7** | [MCP](05-mcp/README.zh-CN.md) | ⭐⭐⭐ 中级+ | 1 小时 | 二级 | 配置 | 实时数据访问 | 实时集成、API |
 | **8** | [子代理](04-subagents/README.zh-CN.md) | ⭐⭐⭐ 中级+ | 1.5 小时 | 二级 | 记忆、命令 | 复杂任务处理（6 个内置，包括 Bash） | 分配、专业知识 |
 | **9** | [高级功能](09-advanced-features/README.zh-CN.md) | ⭐⭐⭐⭐⭐ 高级 | 2-3 小时 | 三级 | 所有之前 | 高级用户工具 | 规划、Auto Mode、频道、语音听写、权限 |
-| **10** | [插件](07-plugins/README.md) | ⭐⭐⭐⭐ 高级 | 2 小时 | 三级 | 所有之前 | 完整解决方案 | 团队入职、分发 |
+| **10** | [插件](07-plugins/README.zh-CN.md) | ⭐⭐⭐⭐ 高级 | 2 小时 | 三级 | 所有之前 | 完整解决方案 | 团队入职、分发 |
 | **11** | [CLI 精通](10-cli/README.zh-CN.md) | ⭐⭐⭐ 高级 | 1 小时 | 三级 | 推荐：所有 | 掌握命令行使用 | 脚本、CI/CD、自动化 |
 
 **总学习时间**：约 11-13 小时（或跳到你的级别以节省时间）
@@ -497,7 +497,7 @@ done
 - **数据处理**：转换和分析数据文件
 
 #### 下一步
-- 阅读：[插件](07-plugins/README.md)
+- 阅读：[插件](07-plugins/README.zh-CN.md)
 - 阅读：[命令行](10-cli/README.zh-CN.md)
 - 创建团队范围的 CLI 快捷方式和插件
 - 设置批处理脚本
@@ -660,7 +660,7 @@ done
 - [ ] 使用了扩展思考切换
 - [ ] 探索了频道和语音听写
 - [ ] **达成里程碑 3A**
-- [ ] 完成了 [07-plugins](07-plugins/README.md)
+- [ ] 完成了 [07-plugins](07-plugins/README.zh-CN.md)
 - [ ] 完成了 [10-cli](10-cli/README.zh-CN.md) 高级使用
 - [ ] 设置了打印模式（`claude -p`）CI/CD
 - [ ] 创建了用于自动化的 JSON 输出

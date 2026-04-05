@@ -18,7 +18,7 @@
 | **斜杠命令** | 55+ | 8 | 63+ | [01-slash-commands/README.zh-CN.md](01-slash-commands/README.zh-CN.md) |
 | **子代理** | 6 | 10 | 16 | [04-subagents/README.zh-CN.md](04-subagents/README.zh-CN.md) |
 | **技能** | 5 个捆绑 | 4 | 9 | [03-skills/README.zh-CN.md](03-skills/README.zh-CN.md) |
-| **插件** | - | 3 | 3 | [07-plugins/README.md](07-plugins/README.md) |
+| **插件** | - | 3 | 3 | [07-plugins/README.zh-CN.md](07-plugins/README.zh-CN.md) |
 | **MCP 服务器** | 1 | 8 | 9 | [05-mcp/README.zh-CN.md](05-mcp/README.zh-CN.md) |
 | **钩子** | 25 个事件 | 7 | 7 | [06-hooks/README.zh-CN.md](06-hooks/README.zh-CN.md) |
 | **记忆** | 7 种类型 | 3 | 3 | [02-memory/README.zh-CN.md](02-memory/README.zh-CN.md) |
@@ -265,7 +265,7 @@ cp -r 03-skills/* ~/.claude/skills/
 └── scripts/          # 实用脚本
 ```
 
-**参考**：[07-plugins/README.md](07-plugins/README.md) | [官方文档](https://code.claude.com/docs/en/plugins)
+**参考**：[07-plugins/README.zh-CN.md](07-plugins/README.zh-CN.md) | [官方文档](https://code.claude.com/docs/en/plugins)
 
 **插件管理命令**：
 ```bash
